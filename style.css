@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    /* #bbc9b6 */
+}
+
+html {
+    background-color: #bbc9b6;
+}
+
+body {
+    height: 99vh;
+    width: 99vw;
+    background:  url(./assets/asset_1.png) no-repeat, url(./assets/asset_2.png) no-repeat;
+    background-position: 47% -95%, 45% 234%;
+    background-size: 500px;
+}
+
+
+.container {
+   margin: 0 auto;
+   text-align: center;
+   margin-top: 1.6em;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 180px;
+    border: 5px solid #bbc9b6;
+}
+
+.title {
+    margin-top: 18px;
+}
+
+.title__name {
+    color: #fff;
+    font-family: "League Spartan", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 42px;
+}
+
+.title__subtitle {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #7a8b6f;
+    font-size: 22px;
+    margin-top: -12px;
+    letter-spacing: 2px;
+
+}
+.container__button {
+    margin-top: 12px;
+}
+
+.subtitle {
+    width: 400px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #556151;
+    margin: 0 auto;
+    margin-top: 36px;
+    margin-bottom: 18px;
+    font-size: 22px;
+}
+
+.button {
+    margin: 0 auto;
+    display: block;
+    background-color: #556151;
+    width: 280px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #ccc;
+    margin-bottom: 12px;
+    padding: 16px;
+    text-decoration: none;
+    border-radius: 12px;
+    display: flex;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.button span {
+    margin-left: 12px;
+}
+
+.button:hover {
+    opacity: .8;
+}
