@@ -15,7 +15,6 @@ body {
     width: 99vw;
 }
 
-
 .container {
    margin: 0 auto;
    text-align: center;
@@ -60,7 +59,6 @@ body {
 }
 
 .subtitle {
-    width: 400px;
     font-family: "Roboto", serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -69,6 +67,7 @@ body {
     margin: 0 auto;
     margin-top: 36px;
     margin-bottom: 18px;
+    text-align: center;
     font-size: 22px;
 }
 
@@ -97,4 +96,18 @@ body {
 
 .button:hover {
     opacity: .8;
+}
+
+.animation {
+    transition: all;
+    animation: entrada .5s ease-in-out;
+}
+
+@keyframes entrada {
+    0% {
+        transform: translateX(-20px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
 }
