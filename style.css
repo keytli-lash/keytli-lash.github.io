@@ -13,22 +13,23 @@ html {
 body {
     height: 99vh;
     width: 99vw;
-    background:  url(./assets/asset_1.png) no-repeat, url(./assets/asset_2.png) no-repeat;
-    background-position: 47% -95%, 45% 234%;
-    background-size: 500px;
 }
 
 
 .container {
    margin: 0 auto;
    text-align: center;
-   margin-top: 1.6em;
+   background:  url(./assets/asset_1.png) no-repeat, url(./assets/asset_2.png) no-repeat;
+   background-position: 47% -96%, 45% 234%;
+   background-size: 500px;
+   height: 99vh;
 }
 
 .profile img {
     border-radius: 50%;
     width: 180px;
     border: 5px solid #bbc9b6;
+    margin-top: 1.6em;
 }
 
 .title {
