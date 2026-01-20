@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Keytli Rios - Lash Designer</title>
-        <link rel="stylesheet" href="./style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-            rel="stylesheet"
-        />
-        <link
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KeyRios Beauty | Realce seu Olhar</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link
             rel="apple-touch-icon"
             sizes="180x180"
             href="./assets/favicon/apple-touch-icon.png"
@@ -30,62 +29,109 @@
         />
         <link rel="manifest" href="./assets/favicon/site.webmanifest" />
     </head>
-    <body>
-        <main class="container">
-            <div class="profile animation">
-                <img src="./assets/keytli-cropped.png" alt="Keyltli Rios" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">KeyRios Beauty</div>
+            <nav>
+                <a href="#home">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="https://api.whatsapp.com/send?phone=5563992805496&text=ol%C3%A1,%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!"
+                    target="_blank" class="btn-nav">Agendar</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container grid">
+            <div class="hero-content reveal-left">
+                <h1>Realce a sua beleza com um olhar marcante</h1>
+                <p>Especialista em Lash Design, transformando olhares com técnica, cuidado e naturalidade.</p>
+                <div class="hero-btns">
+                    <a href="https://api.whatsapp.com/send?phone=5563992805496&text=ol%C3%A1,%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!"
+                    target="_blank" class="btn primary">Agendar Horário</a>
+                    <a href="#servicos" class="btn secondary">Ver Serviços</a>
+                </div>
             </div>
-            <div class="title animation">
-                <div class="title__name">KEYTLI RIOS</div>
-                <div class="title__subtitle">LASH | BROWN</div>
+            <div class="hero-image reveal-right">
+                <div class="image-wrapper">
+                    <img src="./assets/key.jpeg" alt="Lash Designer">
+                </div>
             </div>
-            <div class="subtitle animation"><p>Reserve seu momento!</p></div>
-            <div class="container__button animation">
-                <a
-                    class="button"
-                    href="https://api.whatsapp.com/send?phone=5563992805496&text=ol%C3%A1,%20vim%20pelo%20Instagram%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!"
-                    target="_blank"
-                    ><img
-                        src="./assets/whatsapp.png"
-                        width="24px"
-                        height="24px"
-                        alt="icone whatsapp"
-                    />
-                    <span>WHATSAPP</span></a
-                >
-                <a class="button" href="tel:63-99280-5496" target="_blank"
-                    ><img
-                        src="./assets/phone.png"
-                        alt="icone telefone"
-                        width="24px"
-                        height="24px"
-                    /><span>TELEFONE</span></a
-                >
-                <a
-                    class="button"
-                    href="https://api.whatsapp.com/send?phone=5563992805496&text=Ol%C3%A1,%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20cursos"
-                    target="_blank"
-                >
-                    <img
-                        src="./assets/user.png"
-                        alt="icone cursos"
-                        width="24px"
-                        height="24px"
-                    /><span>CURSOS</span>
-                </a>
-                <a
-                    class="button"
-                    href="https://maps.app.goo.gl/TFFyYYWn8wEfTLut5?g_st=ac"
-                    target="_blank"
-                    ><img
-                        src="./assets/locate.png"
-                        alt="icone localização"
-                        width="24px"
-                        height="24px"
-                    />
-                    <span>LOCALIZAÇÃO</span></a
-                >
+        </div>
+    </section>
+
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2>Nossos Serviços</h2>
+                <p>Técnicas exclusivas para valorizar o seu olhar.</p>
             </div>
-        </main>
-    </body>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <i data-lucide="eye-closed"></i>
+                    <h3>Extensão de Cílios</h3>
+                    <p>Alonga e dá volume aos cílios naturais, realçando o olhar e trazendo mais definição e beleza.</p>
+                </div>
+                <div class="service-card reveal">
+                    <i data-lucide="sparkles"></i>
+                    <h3>Brow Lamination</h3>
+                    <p>Alinha e modela os fios da sobrancelha, deixando-as mais definidas, volumosas e naturais.</p>
+                </div>
+                <div class="service-card reveal">
+                    <i data-lucide="star"></i>
+                    <h3>Look Francês</h3>
+                    <p>Alongamento com cílios inteiriços que trazem elegância e praticidade para o dia a dia.</p>
+                </div>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <i data-lucide="heart"></i>
+                    <h3>Design de Sobrancelhas</h3>
+                    <p>Modelagem perfeita para sobrancelhas alinhadas e harmoniosas.</p>
+                </div>
+                <div class="service-card reveal">
+                    <i data-lucide="droplet"></i>
+                    <h3>Limpeza de Pele</h3>
+                    <p>Pele limpa, renovada e livre de impurezas.</p>
+                </div>
+                <div class="service-card reveal">
+                    <i data-lucide="heart-pulse"></i>
+                    <h3>Epilação Facial</h3>
+                    <p>Remoção de pelos indesejados, promovendo uma pele mais suave, iluminada e com toque macio.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="contact-box reveal">
+                <h2>Vamos agendar sua transformação?</h2>
+                <p>Escolha o canal de sua preferência:</p>
+                <div class="contact-btns">
+                    <a href="https://api.whatsapp.com/send?phone=5563992805496&text=ol%C3%A1,%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio!"
+                    target="_blank"class="btn-contact whatsapp">
+                        <i data-lucide="message-circle"></i> WhatsApp
+                    </a>
+                    <a href="https://www.instagram.com/keyrios_beauty?igsh=MXYydmV5bzJwZWNpNw==" target="_blank" class="btn-contact instagram">
+                        <i data-lucide="instagram"></i> Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 KeyRios Beauty. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
 </html>
